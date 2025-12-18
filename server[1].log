@@ -1,0 +1,26 @@
+
+> mediavault-pro-backend@1.0.0 start
+> node server.js
+
+✅ MediaVault Pro server running on port 3000
+🌐 API endpoints ready at http://localhost:3000
+Download request: { url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', itag: '18' }
+[33mWARNING:[0m Could not parse decipher function.
+Stream URLs will be missing.
+Please report this issue by uploading the "1766042304942-player-script.js" file on https://github.com/distubejs/ytdl-core/issues/144.
+[33mWARNING:[0m Could not parse n transform function.
+Please report this issue by uploading the "1766042304954-player-script.js" file on https://github.com/distubejs/ytdl-core/issues/144.
+Streaming with options: { quality: 18 }
+Stream error: MinigetError: Status code: 403
+    at ClientRequest.<anonymous> (/app/node_modules/miniget/dist/index.js:206:27)
+    at Object.onceWrapper (node:events:634:26)
+    at ClientRequest.emit (node:events:519:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:122:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  statusCode: 403
+}
